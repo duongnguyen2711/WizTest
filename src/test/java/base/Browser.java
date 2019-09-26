@@ -7,7 +7,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Browser {
     private static WebDriver driver;
 
-    public static WebDriver setUpBrowserType(){
+    public static WebDriver setUpBwoserType(){
+
         System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/data/driver" + "/chromedriver.exe");
         ChromeOptions options = new ChromeOptions();
         options.setCapability("acceptSslCerts", true);

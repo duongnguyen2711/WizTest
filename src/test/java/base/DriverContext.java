@@ -10,6 +10,6 @@ public class DriverContext {
     }
 
     public static void setUpDriver(){
-        Browser.setUpBrowserType();
+        Browser.setUpBwoserType();
     }
 }
